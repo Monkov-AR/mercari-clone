@@ -1,0 +1,130 @@
+/* обнуление стилей нужно проверить--------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    background-color: #e1e6f2;
+}
+/*------------------------------------------ */
+.wrapper {
+    max-width: 1280px;
+    padding: 0px 36px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #E2ADF2;
+    width: 100%;
+    height: 108px;
+    margin: 0 auto;
+    position: fixed;
+    padding: 0 36px;
+    top: 0;
+    left: 0;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff585d;
+    height: 64px;
+    align-items: center;
+}
+.logo{
+    background-color: blue;
+    width: 110px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+.logo > svg{
+
+}
+.header__menu{
+    margin: 0 0 0 auto;
+    padding: 0 0 0 24px;
+    width: 326px;
+    height: 64px;
+    font-size: 14px;
+}
+.search{
+    padding: 0 0 0 24px;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    color: fff;
+    text-transform: uppercase;
+    /* font-size: 18px; */
+    text-decoration: none;
+}
+.header__link a{
+    margin: 1;
+    padding: 8px;
+    border-radius: 4px;
+}
+a red-button{
+    background-color: #700004;
+    color: #e1e6f2;
+}
+.header__link a:hover{
+    margin: 1;
+    padding: 8px;
+    background-color: #E2ADF2;
+}
+
+.menu2{
+    display: none;
+    background-color: rgb(166, 24, 29);
+    height: 37px;
+}
+.menu3{
+    background-color: #700004;
+    height: 44px;
+}
+
+.goods {
+    width: 100%;
+    text-align: center;
+}
+
+.item {
+    background-color: #ff585d;
+    width: 23%;
+}
+
+/* 960px */
+@media only screen and (max-width: 960px) {
+    .wrapper {
+        max-width: 1280px;
+        padding: 0px 16px;
+        margin: 0;
+    }
+    .header{
+        height: 130px;
+    }
+    .header>.menu1{
+        background-color: #ff585d;
+        height: 49px;
+    }
+    .header>.menu2{
+        display: block;
+        background-color: rgb(166, 24, 29);
+        height: 37px;
+    }
+    .header>.menu3{
+        background-color: #700004;
+        height: 44px;
+    }
+    
+    .item {
+        background-color: #00d9ff;
+        width: 45%;
+    }
+    
+}

@@ -1,0 +1,23 @@
+
+body {
+    
+    background-color: #e1e6f2;
+}
+
+/* end BASE STYLES */
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: #8ec8d4;
+    display: inline-block;
+    margin: 5px;
+    font-size: 0;
+}
+.proj {
+    width: 390px;
+    height: 200px;
+    background-color:  #494d87;
+    display: inline-block;
+    margin-right: 5px;
+}
